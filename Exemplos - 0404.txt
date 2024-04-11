@@ -1,0 +1,83 @@
+Exemplos - 04/04
+
+A probabilidade do aluno x resolver determinado problema é 3/5 e do aluno y resolver o mesmo problema é 4/7 e de ambos resolverem é 7/20. Qual a probabilidade de que:
+
+	a) O aluno x não resolva o problema: 2/5.
+	b) O problema seja resolvido: aprox. 82,14%
+
+	*essa questão é bem merda, pois P(X) * P(Y) != P(X and Y), o que é patético.
+
+
+Três cavalos A, B e C estão em uma corrida. O cavalo A tem duas vezes mais probabilidade de ganhar que B. E B tem duas vzes mais probabilidade de ganhar que C. Quais são as probabilidades de vitória de cada um, isso é, probabilidade de A, de B e de C.
+
+	4x + 2x + x = 1
+	7x = 1
+	x = 1/7
+
+	A = 4/7
+	B = 2/7
+	C = 1/7
+
+	Qual seria a probabilidade de B ou C ganhar? 3/7
+
+Suponha que, de todos os indivíduos que compram um determinado modelo de celular, 60% podem ter comprado película e 40% podem ter comprado carregador adicional e 30% compram ambos.
+Dado que um indivíduo selecionado aleatoriamente comprou um carregador extra qual a probabilidade de ele ter comprado também a película?
+
+	75% de probabilidade.
+
+
+
+Uma urna contém cinco bolas brancas, quatro vermelhas, e três azuis. Extraem-se, sem reposição, três bolas da urna. Achar a probabilidade de que.
+
+	a) nenhuma seja vermelha
+		
+		8/12 * 7/11 * 6/10 = 336/1320 = 25,45%
+
+	b) exatamente uma seja vermelha
+		
+		4/12 * 8/11 * 7/10 +
+		8/12 * 4/11 * 7/10 +
+		8/12 * 7/11 * 4/10
+
+		= 50,91%
+
+	c) todas sejam da mesma cor 
+		
+		5/12 * 4/11 * 3/10 +
+		4/12 * 3/11 * 2/10 +
+		3/12 * 2/11 * 1/10 
+
+		= 6,82%
+
+
+As probabilidades de três jogadores marcarem um penalti são respectivamente 2/3, 4/5, 7/10. Se cada um cobrar uma única vez, qual a probabilidade de:
+
+	a) todos acertarem: 
+		
+		2/3 * 4/5 * 7/10 = 56/150 = 37,33%
+	
+	b) apenas um acertar:
+		
+		2/3 * 1/5 * 3/10 +
+		1/3 * 4/5 * 3/10 +
+		1/3 * 1/5 * 7/10
+
+		= 16,67%
+
+	c) todos errarem: 
+
+		1/3 * 1/5 * 3/10 = 3/150 = 2%
+
+
+Uma urna contém cinco bolas pretas, três vermelhas, e duas brancas. Foram extraídas três bolas com reposição. 
+Qual a probabilidade de terem sido duas bolas pretas e uma vermelha?
+
+	5/10 * 5/10 * 3/10 * 3!/2! = 75/1000 * 3 = 7,5 * 3 = 22,5%
+
+
+
+
+
+
+
+
