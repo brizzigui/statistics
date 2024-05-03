@@ -9,7 +9,7 @@
 
 ### Exemplo
 
-Numa estrada há dois acidentes para cada 100 km. Qual a probabilidade de que em:
+> Numa estrada há dois acidentes para cada 100 km. Qual a probabilidade de que em:
 
 a) Em 100 km, não ocorram acidentes?
     
@@ -37,7 +37,7 @@ c) Em 300 km, ocorram 5 acidentes
 
 
 ### Exemplo 2
-2% dos refrigeadores produzidos por uma empresa são defeituosos. Se um comprador comprar 1000 refrigeradores, qual a chance de que nenhum seja defeituoso?
+> 2% dos refrigeadores produzidos por uma empresa são defeituosos. Se um comprador comprar 1000 refrigeradores, qual a chance de que nenhum seja defeituoso?
 
     P(x=0)
 
@@ -53,7 +53,7 @@ c) Em 300 km, ocorram 5 acidentes
 
 ### Exemplo
 
-A probabilidade de se encontrar aberto o sinal de trânsito numa esquina é 0,2. Qual a probabilidade de que seja necessário passar pelo local 5 vezes para encontrar o sinal aberto pela primeira vez?
+> A probabilidade de se encontrar aberto o sinal de trânsito numa esquina é 0,2. Qual a probabilidade de que seja necessário passar pelo local 5 vezes para encontrar o sinal aberto pela primeira vez?
 
 P(x=5) = 0,2 * 0,8^4 = 0,0819 = 8,19%
 
@@ -70,7 +70,7 @@ P(x=5) = 0,2 * 0,8^4 = 0,0819 = 8,19%
 
 ### Exemplo
 
-    Pequenos motores são guardados em caixas de 50 unidades. Um inspetor de qualidade examina cada caixa antes da posterior remessa testando 5 motores. Se nenhum motor for defeituoso, a caixa é aceita. Se pelo menos um motor for defeituoso, todos os motores, todos os motores são testados. Supondo que há 6 motores defeituosos numa caixa, qual a probabilidade de de que seja necessário examinar todos os motores dessa caixa.
+> Pequenos motores são guardados em caixas de 50 unidades. Um inspetor de qualidade examina cada caixa antes da posterior remessa testando 5 motores. Se nenhum motor for defeituoso, a caixa é aceita. Se pelo menos um motor for defeituoso, todos os motores, todos os motores são testados. Supondo que há 6 motores defeituosos numa caixa, qual a probabilidade de de que seja necessário examinar todos os motores dessa caixa.
 
     P(x>=1) = 1 - P(x = 0) 
     
