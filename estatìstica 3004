@@ -1,0 +1,86 @@
+# Distribuição qui-quadrado (x^2)
+
+Xi ~ N(0, 1)    -infinto < x < infinito
+
+(X1)^2 + (X2)^2 + (Xn)^2 ~ (Xn)^2
+
+Características:
+    
+    E(x) = v
+    V(x) = 2v
+
+    v = graus de liberdade 
+    alpha = nível de significância
+
+    (X v, alpha)^2
+
+    v = 9
+    alpha = 5%
+
+    (X 9, 5%) ^ 2 = 16,92 (por tw)
+
+## Exemplo
+
+Considere uma distribuição qui-quadrado com parâmetro 18. Encontre a média, a variância, o desvio-padrão, a mediana, e o nonagésimo percentil
+
+    v = 18
+    E(x) = v = 18
+    V(x) = 2v = 36
+    desvio padrão = sqrt(V(x)) = sqrt(36) = 6
+
+    para acharmos a média, achemos a mediana:
+
+    (X 18, 50%) = 17,34 (por tabela)
+
+    para acharmos o nonagésimo percentil
+
+    (X 18, 10%) = 25,99
+
+
+## Exemplo 2
+
+Sendo v = 25 e a seguinte distribuição 
+Encontre os valores da borda do primeiro 2,5% (X 1)^2 e do último 2,5% (X 2)^2
+
+    para a borda do primeiro
+    (X 1)^2 = (X 25, 97,5%)^2 = 13,12
+
+    para a borda do segundo
+
+    (X 2)^2 = (X 25, 2,5%)^2 = 40,65
+
+# Distribuição de t de Student
+
+E(x) = 0
+V(x) = v/(v-2), para v > 2
+
+Por exemplo:
+    t(18, 5%/2) representa os dois cantos do gráfico, cada um com 2,5%.
+
+
+## Exemplo 1 
+
+Uma distribuição t, com parâmetro 25, encontre a média, a variância, o desvio padrão, a mediana e o nonagésimo quinto percentil
+
+    média = 0
+    mediana = 0
+    variância = 25/23
+    desvio padrão = sqrt(25/23)
+
+    nonagésimo quinto percentil:
+
+    t(25, 95%) = 1.708
+
+
+# Distribuição F de Snedocor e ANOVA (análise de variância)
+
+F = ((X1)^2 / (v1)^2) / ((X2)^2 / (v2)) ~ F v1, v2, alpha
+
+Por exemplo,
+
+    F 10, 12, 5% = 2,75%
+
+Características:
+
+E(x) = v2/(v2 - 2), para v2 > 2
+V(X) = 2*(v2)^2 (v1 + v2 - 2) / v1 (v2 - 4) (v2 - 2)^2
