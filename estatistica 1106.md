@@ -54,11 +54,15 @@ Queremos conhecer a população e seus parâmetros. Mas não vamos ter acesso ao
 
 Caso 1: A variância populacional sigma^2 é conhecida
 
-    e0 = Z(alpha/2) * sigma / sqrt(n) ou n >= 30
+    e0 = Z(alpha/2) * sigma / sqrt(n) (ou se n >= 30)
+
+    z é a normal
 
 Caso 2: A variância populacional sigma^2 é desconhecida
 
     e0 = t v, alpha/2 * S/sqrt(n)
+
+    t é a t de student
 
     onde v = n - 1
 
